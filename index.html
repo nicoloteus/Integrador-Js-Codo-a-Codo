@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>TP Integrador - Codo a Codo</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+    <!-- Barra de navegación -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="imagenes/codoacodo.png" alt="Logo de la Conferencia" width="100" height="80">
+                <span class="text-white">Conf Bs As</span>
+            </a>
+            <!-- Botón para dispositivos móviles -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Contenedor de enlaces de navegación -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <!-- Enlace "La Conferencia" -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="#conference">La Conferencia</a>
+                    </li>
+                    <!-- Enlace "Los Oradores" -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="#speakers">Los Oradores</a>
+                    </li>
+                    <!-- Enlace "El Lugar y la Fecha" -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="#location">El Lugar y la Fecha</a>
+                    </li>
+                    <!-- Enlace "Conviértete en Orador" -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="#become-speaker">Conviértete en Orador</a>
+                    </li>
+                    <!-- Enlace "Comprar Tickets" -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="compra_tickets.html">Comprar Tickets</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Sección de Cabecera con Carrusel de Imágenes -->
+    <header class="position-relative" style="height: 400px;">
+        <!-- Carrusel de Imágenes -->
+        <div id="header-carousel" class="carousel slide" data-bs-ride="carousel">
+            <!-- Imágenes del Carrusel -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="imagenes/ba1.jpg" alt="Imagen 1">
+                </div>
+                <div class="carousel-item">
+                    <img src="imagenes/ba2.jpg" alt="Imagen 2">
+                </div>
+                <div class="carousel-item">
+                    <img src="imagenes/ba3.jpg" alt="Imagen 3">
+                </div>
+            </div>
+            <!-- Controles del Carrusel -->
+            <a class="carousel-control-prev" href="#header-carousel" role="button" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span>
+            </a>
+            <a class="carousel-control-next" href="#header-carousel" role="button" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Siguiente</span>
+            </a>
+        </div>
+
+        <!-- Contenido del Encabezado -->
+        <div class="position-absolute top-50 end-0 translate-middle-y text-end m-4" style="color: white;">
+            <h1>Conf Bs As</h1>
+            <p>Buenos Aires llega por primera vez a Argentina. Un evento para compartir con nuestra comunidad el conocimiento y experiencia de los expertos que están creando el futuro de Internet. Ven a conocer a miembros del evento, a otros estudiantes de Codo a Codo y los oradores de primer nivel que tenemos para ti. ¡Te esperamos!</p>
+            <a href="#speakers" class="btn btn-outline-light btn-lg">Quiero ser orador</a>
+            <a href="compra_tickets.html" class="btn btn-success btn-lg">Comprar Tickets</a>
+        </div>
+    </header>
+
+    <!-- Sección de Oradores -->
+    <section id="speakers" class="py-5 mt-5">
+        <div class="container">
+            <h6 class="text-center">CONOCE A LOS</h6>
+            <h2 class="text-center">ORADORES</h2>
+            <div class="row">
+                <!-- Steve Jobs -->
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="imagenes/steve.jpg" alt="Steve Jobs" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Steve Jobs</h5>
+                            <p class="card-text">Cofundador de Apple Inc.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Bill Gates -->
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="imagenes/bill.jpg" alt="Bill Gates" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Bill Gates</h5>
+                            <p class="card-text">Cofundador de Microsoft Corporation.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Ada Lovelace -->
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="imagenes/ada.jpeg" alt="Ada Lovelace" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Ada Lovelace</h5>
+                            <p class="card-text">Pionera en programación de computadoras.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Imagen y Texto -->
+    <section style="background-color: #333; color: white; display: flex; align-items: center; justify-content: center;">
+        <img src="imagenes/honolulu.jpg" alt="Imagen" style="max-width: 50%; height: auto; flex: 1;">
+        <div style="padding: 10px;">
+            <h4>Bs As - Octubre</h4>
+            <p>Buenos Aires es la provincia y localidad más grande del estado de Argentina, en los Estados Unidos. Honolulu es la más sureña de entre las principales ciudades estadounidenses. Aunque el nombre de Honolulu se refiere al área urbana en la costa sureste de la isla de Oahu, la ciudad y el condado de Honolulu han formado una ciudad-condado consolidada que cubre toda la ciudad (aproximadamente 600 km2 de superficie).</p>
+            <a href="#conocemas" class="btn btn-outline-light btn-sm">Conoce más</a>
+        </div>
+    </section>
+
+    <!-- Sección de Conviértete en Orador -->
+    <section class="py-5">
+        <div class="container text-center">
+            <h6>Conviértete en un</h6>
+            <h2>Orador</h2>
+            <p>Anótate como orador para dar una charla ignite. Cuéntanos de qué quieres hablar.</p>
+            <form action="#" method="post">
+                <div class="form-group">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Nombre" required>
+                        </div>
+                        <div class="col-md-6">
+                            <input type="text" class="form-control" id="apellido" name="apellido" placeholder="Apellido" required>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <textarea class="form-control" id="tema" name="tema" placeholder="Sobre qué quieres hablar" rows="4" required></textarea>
+                </div>
+                <p>Recuerda incluir un título para tu charla</p>
+                <button type="submit" class="btn btn-success btn-lg">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Pie de página -->
+    <footer class="bg-dark text-light text-center py-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <ul class="list-unstyled list-inline">
+                        <li class="list-inline-item"><a href="#faq">Preguntas Frecuentes</a></li>
+                        <li class="list-inline-item"><a href="#contact">Contáctanos</a></li>
+                        <li class="list-inline-item"><a href="#press">Prensa</a></li>
+                        <li class="list-inline-item"><a href="#conferences">Conferencias</a></li>
+                        <li class="list-inline-item"><a href="#terms">Términos y Condiciones</a></li>
+                        <li class="list-inline-item"><a href="#privacy">Política de Privacidad</a></li>
+                        <li class="list-inline-item"><a href="#students">Estudiantes</a></li>
+                    </ul>
+                </div>
+            </div>
+            <p>&copy; 2023 Conferencia de Oradores. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,165 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Barra de navegación */
+.navbar {
+    background-color: #343a40;
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-toggler-icon {
+    background-color: #fff;
+}
+
+/* Encabezado con Carrusel */
+.carousel-item img {
+    width: 100%;
+    height: auto;
+}
+
+/* Sección de Oradores */
+#speakers {
+    background-color: #f8f9fa;
+    padding: 50px 0;
+}
+
+.card {
+    border: none;
+}
+
+.card-title {
+    text-align: center;
+}
+
+/* Sección de Imagen y Texto */
+#location {
+    padding: 50px 0;
+}
+
+/* Sección de Conviértete en Orador */
+#become-speaker {
+    background-color: #f8f9fa;
+    padding: 50px 0;
+}
+
+/* Pie de página */
+footer {
+    background-color: #343a40;
+    color: #fff;
+}
+
+/* Estilos específicos para el formulario */
+#ticketForm {
+    width: 70%;
+    margin: auto;
+}
+
+#ticketForm input,
+#ticketForm select {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+}
+
+#ticketForm button {
+    width: 150px; /* Ajusta el ancho según sea necesario */
+    margin: 5px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    color: #ffffff;
+}
+
+/* Estilos específicos para compra_tickets.html */
+#ticketForm {
+    text-align: center;
+  }
+  
+  #ticketForm input[type="text"],
+  #ticketForm input[type="email"],
+  #ticketForm select,
+  #ticketForm input[type="number"] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+  }
+  
+  #ticketForm button {
+    background-color: lightgreen;
+    margin-right: 10px;
+  }
+  
+  #ticketForm label {
+    margin-bottom: 5px;
+    display: block;
+  }
+  
+  #ticketForm button,
+  #ticketForm input[type="button"] {
+    background-color: lightgreen;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  #ticketForm #total-a-pagar {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+  }
+  
+  /* Estilos específicos para el pie de página en compra_tickets.html */
+  #ticketFooter {
+    background-color: #343a40;
+    color: #ffffff;
+    padding: 20px;
+    margin-top: 20px;
+  }
+
+  /* Estilos específicos para Contenido de la página de compra de tickets */
+  #estudiante-card {
+    background-color: #007bff;
+    color: white;
+    padding: 20px;
+}
+
+#trainee-card {
+    background-color: #17a2b8;
+    color: white;
+    padding: 20px;
+}
+
+#junior-card {
+    background-color: #ffc107;
+    color: black;
+    padding: 20px;
+}
+
+#venta-title {
+    display: flex;
+    justify-content: center;
+}
+
+#ticket-price {
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+    color: #007bff;
+    font-weight: bold;
+}
